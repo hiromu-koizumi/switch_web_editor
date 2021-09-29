@@ -1,0 +1,17 @@
+{
+  "name": "webeditor切り替えくん",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "切り替える",
+    "default_icon": {
+      "16": "images/icon.png",
+      "24": "images/icon.png",
+      "32": "images/icon.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
